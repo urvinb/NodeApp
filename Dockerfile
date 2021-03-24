@@ -4,6 +4,8 @@ FROM node:7-onbuild
 # set maintainer
 LABEL maintainer "urvibheda999@somaiya.edu"
 
+WORKDIR E:/NodeApp/
+
 # set a health check
 HEALTHCHECK --interval=5s \
             --timeout=5s \
