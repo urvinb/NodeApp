@@ -14,9 +14,7 @@
   "keywords": [
     "node",
     "docker",
-    "Dockerfile"
+    "dockerfile"
   ],
-  "dependencies": {
-    "test": "^0.6.0"
-  }
+  "devDependencies": { "test": ">=0.6.0" }
 }
