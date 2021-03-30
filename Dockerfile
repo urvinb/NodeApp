@@ -2,7 +2,7 @@
 FROM node:7-onbuild
 
 # set maintainer
-LABEL maintainer "urvibheda999@somaiya.edu"
+LABEL maintainer "urvi.bheda@somaiya.edu"
 
 WORKDIR E:/NodeApp/
 
