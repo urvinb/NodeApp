@@ -12,11 +12,11 @@ node {
         app = docker.build("urvi99/nodeapp")
     }
 
-    stage('Test image') {
-        app.inside {
-            echo "Tests passed"
-        }
-    }
+    // stage('Test image') {
+    //     app.inside {
+    //         echo "Tests passed"
+    //     }
+    // }
 
     stage('Push image') {
         /* 
